@@ -15,6 +15,7 @@ def longest_palindrome_substring(s):
     result = ''
 
     for i in range(len(s)-1):
+        # 팰린드롬의 길이가 홀수개인 것과 짝수개인 것을 나누어서 구한다.
         result = max(result,
                      expand(i,i+1),
                      expand(i,i+2),
