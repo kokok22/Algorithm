@@ -126,4 +126,9 @@ venv.bak/
 dmypy.json
 
 # Pyre type checker
-.pyre/
+.pyre/s
+
+# self add
+/.idea
+*.xml
+*.iml
