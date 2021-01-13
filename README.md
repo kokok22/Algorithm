@@ -13,9 +13,9 @@
 <br>
 
 ### 2. 배열
-- Date    : 2021/01/11 ~
+- Date    : 2021/01/11 ~ 2021/01/12
 - Problem : 6
-- Note    : ???
+- Note    : two point
 
 
 
