@@ -1,3 +1,5 @@
+## 가장 원점과 가까운 거리와 개수
+
 T = int(input())
 
 for t in range(T):
