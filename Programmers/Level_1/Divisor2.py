@@ -11,3 +11,4 @@ def solution(n):
     return sum(result)
 
 print(solution(10))
+
