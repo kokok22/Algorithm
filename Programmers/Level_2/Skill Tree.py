@@ -1,3 +1,5 @@
+# for - else : break로 종료되지 않으면 else문이 실행된다.
+
 def solution(skill, skill_trees):
     answer = 0
 
