@@ -1,3 +1,27 @@
+## strip으로 안쓰는 문자열 제거
+## split으로 분리해줌
+## 똑똑한 방법
+
+def solution(s):
+    s = s.lstrip('{').rstrip('}').split('},{')
+
+    result = []
+    for i in s:
+        result.append(i.split(','))
+
+    result.sort(key=lambda a: len(a))
+
+    answer = []
+    for num_list in result:
+        for number in num_list:
+            if not int(number) in answer:
+                answer.append(int(number))
+
+    return answer
+
+
+## 내가 푼 것
+## 상당히 귀찮게 풀었음. 경우의 수 다 나눠서 문자열 처리해줌
 def solution(s):
     stack = []
     num = []
