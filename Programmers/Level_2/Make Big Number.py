@@ -1,7 +1,6 @@
 def solution(number, k):
     answer = []
     size = len(number) - k
-    idx = 0
 
     for i in range(size):
         max_num = '0'
